@@ -1,0 +1,82 @@
+  @charset "utf-8";
+  @import url('/normalize.css');
+  @import url('/reset.css');
+  .navigation {
+    background: yellow;
+    margin: 0 auto;
+    height: 300px;
+    width: 900px;
+  }
+  /* h2 안드로메다로~ */
+  
+  .a11y-hidden {
+    position: absolute;
+    left: -9999em;
+  }
+  
+  .main-menu {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-menu>li {
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  .main-menu span {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .main-menu span:hover,
+  .main-menu span:focus {
+    color: white;
+    background: black;
+  }
+  
+  .sub-menu {
+    position: absolute;
+    top: 40px;
+    white-space: nowrap;
+  }
+  
+  .sub-menu li,
+  .sub-menu a {
+    display: inline-block;
+  }
+  
+  .sub-menu a {
+    padding: 10px;
+  }
+  
+  .sub1 {
+    display: none;
+  }
+  
+  .sub2 {
+    display: none;
+    left: -200px;
+  }
+  
+  .sub3 {
+    display: none;
+    right: 0;
+  }
+  
+  .main-menu>li:hover .sub-menu,
+  .main-menu>li:focus .sub-menu {
+    display: block;
+  }
+  
+  .sub-menu-active {
+    display: block !important;
+  }
+  
+  a:hover,
+  a:focus {
+    background: blue;
+    color: white;
+  }
