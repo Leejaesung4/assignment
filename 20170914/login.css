@@ -1,0 +1,87 @@
+  @charset "utf-8";
+  @import url('/normalize');
+  @import url('/reset.css');
+  .login {
+    position: relative;
+    top: 10px;
+    background: black;
+    padding: 10px;
+    margin: 0 auto;
+    width: 255px;
+  }
+  
+  .login-header {
+    margin: 0 10px 10px 10px;
+    color: white;
+  }
+  
+  .login-form {
+    background: white;
+    padding: 10px 10px 0 10px;
+    ;
+    position: relative;
+  }
+  
+  .login-form fieldset::after {
+    content: '';
+    display: block;
+    border: 2px solid black;
+  }
+  
+  .login-form legend {
+    position: absolute;
+    left: -9999em;
+  }
+  
+  .login-form label {
+    display: inline-block;
+    width: 65px;
+  }
+  
+  .login-form input {
+    width: 90px;
+  }
+  
+  .user-pw input {
+    width: 90px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    padding: 0 5px;
+    border: 0;
+    width: 60px;
+    height: 50px;
+  }
+  
+  .rember {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .rember li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: gray;
+  }
+  
+  .rember li a:hover {
+    color: black;
+  }
+  
+  .hi {
+    display: inline-block;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hi:hover {
+    color: red;
+  }
