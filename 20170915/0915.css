@@ -1,0 +1,63 @@
+    .wrapper {
+        width: 450px;
+        height: 450px;
+        position: relative;
+        background: red;
+    }
+    
+    .box {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+        box-sizing: border-box;
+        border: 1px solid #000;
+    }
+    
+    .box-1 {
+        float: right;
+        margin-top: 300px;
+    }
+    
+    .box-2 {
+        float: right;
+        margin-top: 300px;
+    }
+    
+    .box-3 {
+        float: right;
+        margin-top: -300px;
+        margin-left: 300px;
+    }
+    
+    .box-4 {
+        float: right;
+        margin-right: 150px;
+        margin-top: -300px;
+    }
+    
+    .box-5 {
+        float: right;
+        margin-top: -450px;
+    }
+    
+    .box-6 {
+        float: left;
+        margin-top: -150px;
+    }
+    
+    .box-7 {
+        float: right;
+        margin-right: 150px;
+        margin-top: -450px;
+    }
+    
+    .box-8 {
+        float: left;
+        margin-top: -300px;
+    }
+    
+    .box-9 {
+        float: left;
+        margin-top: -450px;
+    }
