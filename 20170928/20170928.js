@@ -7,10 +7,12 @@ function triangle(line) {
     for (var s = 1; s <= i * 2 - 1; s++) {
       result += '*';
     }
-    console.log('정 삼각형 : ' + result);
-  };
-};
+    console.log('정 삼각형 : ' + result); //result += '\n';
+  }
+  // return result;
+}
 triangle(10);
+//console.log(triangle(10));
 
 
 //역삼각형
